@@ -1,0 +1,107 @@
+\section{Survey Data} \label{sec:results_surveys}
+
+\subsection{Usability Report} \label{sec:results_surveys_usability}
+    Given that this game was built from scratch, there’s one important aspect that was not previously researched. A proper usability test was never performed on it thoroughly. Some aspects of the game that were verified rougher, such as movement, may have perhaps had a chance for improvement with time given towards taking user feedback and reworking of those trouble spots.\\
+    So why is measuring usability important during the trials then? Because ease of use, learnability and repeatability are some of the most important indicators by which satisfaction is evaluated, and the majority of methodologies used in Human-Computer Interaction research to validate assumptions into concrete ideas are variations of usability tests. This present work itself is similar in nature to one method of testing usability, known as Split Testing, whereas two versions of an application are handed to different groups and variations in key metrics are determined. In sum, the measurement of usability is indissociable from any form of research involving user interaction.\\
+    To perform this study on the system’s usability, we resorted to the System Usability Scale\cite{brooke1996sus}, the SUS. The SUS is an industry standard questionnaire consisting of ten elements to which users respond in a scale between strong disagreement and strong agreement. These questions were adapted to the game into the post-game survey and rearranged, however the function of the SUS’s scoring is intact. Table \ref{tab:Table_SUS} shows these scores.\\
+    \begin{table}[ht]
+    \begin{tabular}{ll}
+    \hline
+    \multicolumn{1}{|l|}{Cultural}     & \multicolumn{1}{l|}{SUS Score} \\ \hline
+    \multicolumn{1}{|l|}{V1}           & \multicolumn{1}{l|}{87.5}      \\ \hline
+    \multicolumn{1}{|l|}{V3}           & \multicolumn{1}{l|}{80}        \\ \hline
+    \multicolumn{1}{|l|}{V5}           & \multicolumn{1}{l|}{90}        \\ \hline
+    \multicolumn{1}{|l|}{V6}           & \multicolumn{1}{l|}{85}        \\ \hline
+    \multicolumn{1}{|l|}{V9}           & \multicolumn{1}{l|}{90}        \\ \hline
+    \multicolumn{1}{|l|}{V11}          & \multicolumn{1}{l|}{87.5}      \\ \hline
+    \multicolumn{1}{|l|}{V13}          & \multicolumn{1}{l|}{85}        \\ \hline
+    \multicolumn{1}{|l|}{V15}          & \multicolumn{1}{l|}{85}        \\ \hline
+    \multicolumn{1}{|l|}{V17}          & \multicolumn{1}{l|}{92.5}      \\ \hline
+                                       &                                \\ \hline
+    \multicolumn{1}{|l|}{Non-Cultural} & \multicolumn{1}{l|}{SUS Score} \\ \hline
+    \multicolumn{1}{|l|}{V2}           & \multicolumn{1}{l|}{65}        \\ \hline
+    \multicolumn{1}{|l|}{V4}           & \multicolumn{1}{l|}{77.5}      \\ \hline
+    \multicolumn{1}{|l|}{V7}           & \multicolumn{1}{l|}{72.5}      \\ \hline
+    \multicolumn{1}{|l|}{V8}           & \multicolumn{1}{l|}{80}        \\ \hline
+    \multicolumn{1}{|l|}{V10}          & \multicolumn{1}{l|}{80}        \\ \hline
+    \multicolumn{1}{|l|}{V12}          & \multicolumn{1}{l|}{87.5}      \\ \hline
+    \multicolumn{1}{|l|}{V14}          & \multicolumn{1}{l|}{65}        \\ \hline
+    \multicolumn{1}{|l|}{V16}          & \multicolumn{1}{l|}{75}        \\ \hline
+    \end{tabular}
+        \caption{\label{tab:Table_SUS}System Usability Scale scores determined by the users of the Cultural and Non-Cultural Groups}
+    \end{table}
+    
+    Between the two groups it’s apparent that the Non-cultural group had a lesser impression related to the game’s usability. While this was a unanimous complaint, the lowest SUS scores were also coming from the volunteers who most felt the need to verbalize their discontent with the game’s movement. The SUS score ranges from 0 to 100, however these are not percentages spread over a uniform distribution. There’s no single guideline by which all SUS scores are interpreted, but what is usually accepted as a good parameter, is that a desirable threshold to surpass is a SUS score of 68, which represents an approximated average of most SUS questionnaires, or alternatively a score of 80, which is associated with high task completion\cite{sauro2011practical}, although these values may vary depending on the researcher heading the questionnaire, sample sizes and sample selection. There are more benchmarks and percentile breakdowns, but in broad terms, it’s valid to state that the Cultural Group’s is set above the Non-Cultural Group by at least a ranking in terms of its usability, and thus, the choice of gestures has provided a benefit to the Cultural Group.\\
+
+\subsection{Confidence and Culturally-Driven Misplaced Confidence} \label{sec:results_surveys_confidence}
+    After the games were completed, the participants were asked about each of the individual tasks they performed on a number of aspects. Aspects such as how they felt about solving them, if the gesture felt natural, among others. One of which, exclusive to the second trial, was their confidence in remembering the task's gestures, and, conversely, if they had trouble remembering it. A few more questions not related to the tasks directly allowed to further get a feel for their personal evaluation on the matter.\\
+    From these, it was possible to rate each user's global confidence in solving the game's tasks on a scale ranging from 0 to 30. However, this is not a metric that's very useful on its own. Beyond the fact that a user's confidence may be related to personal facets and quirk's, we're also not looking into if the game on its own inspires confidence, but rather if the cultural emblems within a fitting context are a major differentiator for the users otherwise experiencing the same game. This means that merely comparing the Cultural and Non-Cultural Group's Confidence Score wouldn't be enough.\\
+    It was considered important to go back to the game performance assessment and attempt to categorize the sources of confidence in separate ways. The confidence score would remain a global perspective of the user's evaluation, but a sub-score of it would list out how much of that confidence was misplaced and borne of a user performing the wrong action and still clearing the task. Thus, we may create two scores, a participant's Confidence score, and a Misplaced Confidence score. But this approach is still insufficient, as the cultural component is missing. It's by taking in account the types of Gestural Mistakes observed earlier \ref{sec:results_game_performance} that this misplaced confidence becomes relevant.\\
+    Ideally for the thesis' hypotheses, for each user that committed a mistake in the game yet claimed confidence that they solved it correctly, they would have done so because they misremembered a well-fitting cultural emblem in place of their actual mistaken gesture. As such, another score is required to be broken down from confidence, that of the Culturally-Driven Misplaced Confidence.\\
+    
+    \begin{table}[ht]
+    \begin{tabular}{llll}
+    \cline{2-4}
+    \multicolumn{1}{l|}{}     & \multicolumn{1}{l|}{Total} & \multicolumn{1}{l|}{Misplaced} & \multicolumn{1}{l|}{Cultural} \\ \hline
+    \multicolumn{1}{|l|}{V1}  & \multicolumn{1}{l|}{26}    & \multicolumn{1}{l|}{0}         & \multicolumn{1}{l|}{0}        \\ \hline
+    \multicolumn{1}{|l|}{V3}  & \multicolumn{1}{l|}{27}    & \multicolumn{1}{l|}{0}         & \multicolumn{1}{l|}{0}        \\ \hline
+    \multicolumn{1}{|l|}{V6}  & \multicolumn{1}{l|}{24}    & \multicolumn{1}{l|}{0}         & \multicolumn{1}{l|}{0}        \\ \hline
+    \multicolumn{1}{|l|}{V9}  & \multicolumn{1}{l|}{23}    & \multicolumn{1}{l|}{0}         & \multicolumn{1}{l|}{0}        \\ \hline
+    \multicolumn{1}{|l|}{V11} & \multicolumn{1}{l|}{19}    & \multicolumn{1}{l|}{0}         & \multicolumn{1}{l|}{0}        \\ \hline
+    \multicolumn{1}{|l|}{V13} & \multicolumn{1}{l|}{30}    & \multicolumn{1}{l|}{0}         & \multicolumn{1}{l|}{0}        \\ \hline
+    \multicolumn{1}{|l|}{V15} & \multicolumn{1}{l|}{26}    & \multicolumn{1}{l|}{0}         & \multicolumn{1}{l|}{0}        \\ \hline
+    \multicolumn{1}{|l|}{V17} & \multicolumn{1}{l|}{28}    & \multicolumn{1}{l|}{0}         & \multicolumn{1}{l|}{0}        \\ \hline
+                              &                            &                                &                               \\ \cline{2-4} 
+    \multicolumn{1}{l|}{}     & \multicolumn{1}{l|}{Total} & \multicolumn{1}{l|}{Misplaced} & \multicolumn{1}{l|}{Cultural} \\ \hline
+    \multicolumn{1}{|l|}{V2}  & \multicolumn{1}{l|}{21}    & \multicolumn{1}{l|}{9}         & \multicolumn{1}{l|}{8}        \\ \hline
+    \multicolumn{1}{|l|}{V4}  & \multicolumn{1}{l|}{22}    & \multicolumn{1}{l|}{12}        & \multicolumn{1}{l|}{8}        \\ \hline
+    \multicolumn{1}{|l|}{V7}  & \multicolumn{1}{l|}{20}    & \multicolumn{1}{l|}{10}        & \multicolumn{1}{l|}{10}       \\ \hline
+    \multicolumn{1}{|l|}{V8}  & \multicolumn{1}{l|}{30}    & \multicolumn{1}{l|}{0}         & \multicolumn{1}{l|}{0}        \\ \hline
+    \multicolumn{1}{|l|}{V10} & \multicolumn{1}{l|}{24}    & \multicolumn{1}{l|}{12}        & \multicolumn{1}{l|}{10}       \\ \hline
+    \multicolumn{1}{|l|}{V12} & \multicolumn{1}{l|}{25}    & \multicolumn{1}{l|}{20}        & \multicolumn{1}{l|}{20}       \\ \hline
+    \multicolumn{1}{|l|}{V14} & \multicolumn{1}{l|}{23}    & \multicolumn{1}{l|}{8}         & \multicolumn{1}{l|}{4}        \\ \hline
+    \multicolumn{1}{|l|}{V16} & \multicolumn{1}{l|}{22}    & \multicolumn{1}{l|}{3}         & \multicolumn{1}{l|}{3}        \\ \hline
+    \end{tabular}
+        \caption{\label{tab:Table_Confidence}Confidence Scores showcased by Cultural and Non-Cultural groups during the second trial}
+    \end{table}
+    
+    Since the Cultural group made no definite gestural mistakes, their misplaced scores can only be zero, and their culturally-driven misplacement, while possible in practice, would require issues with the task design itself, which was precisely the reason why two were eliminated from the evaluation. One way or another, while confidence is an important metric for the global experience assessment, the whole Cultural group is not really insightful for this current approach. However, as for the Non-Cultural Group, a lot of the score is valid. Since nearly the complete majority of the gestural mistakes were Emblematic Substitutions, it's no surprise that a lot of the confidence the users had misplaced was sourced to their cultural expectations. Manifestly, 85\% of all of the misplaced user confidence score was due to the Non-Cultural trial intentionally breaking their natural conventions. Given an application with more direct forms of feedback where it comes to user failure, this data favors the gesture set employed by the Cultural group enormously.
+    
+\subsection{Global Experience and Immersiveness Indicators} \label{sec:results_surveys_immersiveness}
+    To properly evaluate the global experience of the game in both game’s post-tests, a choice was factors considered relevant would be required. Giving the volunteers more freedom in reporting their relevant determinants was considered and would be valuable for the general evaluation. Such as the PANAS scale, for a tallying of subjective mood. However, the need for a comparative evaluation between test groups dictated that the post-test surveys would have to be more focused at a pre-determined set of elements between the two user groups, that covered more aspects than affectivity.\\
+    With other questions in the post-test, the game, the Content component in the UX triad, was already looked at in several manners. A proper UX questionnaire ought to look into the other two elements of interaction: The Person, their experience, their anticipations, their characteristics, their relationships; and the Form, the technology by which the game is delivered, the extra content not part of the game’s primary progression. The latter is interesting mostly in aspects that may have affected the former, as people’s focus and attention is performed in a generally scattered yet not truly expectable manner. What some find amusing, distracting and correctly perceive, others may fail to because of form factors. That is to say, most of the questions in the post-game were majorily introspective, framing questions from the perspective of what the participants felt and responded to, rather than questioning about the game (E.g. "I have enjoyed myself" instead of "The game was enjoyful").\\
+    The following were the indicators chosen: Emotional Impact; Internal Expectations; Self-Consciousness; External Expectations and Sharing; Recall and Recognition; Enjoyment and Repeatability; Subjective Sense of Comfort; Technological and Methodological Impact; Symbolic Feedback and Sense Making. Some indicators were also ascertained in other works but didn’t feel like they fit well with the current, such as Monetary Value, the willingness to pay money for similar experiences; or Reputation, which did not make sense given the fact the technology was almost entirely unknown to the participants prior. These were asked to the volunteers through questionnaire, and the answers were weighed to a scale ranging from 0 to 50, the higher the better. Table \ref{tab:Table_Final} shows the scores for each indicator, for each of the Cultural and Non-Cultural Groups.\\
+    
+    \begin{table}[ht]
+    \begin{tabular}{llll}
+    \cline{1-2}
+    \multicolumn{1}{|l|}{Cultural Group}                          & \multicolumn{1}{l|}{score} &                       &                                     \\ \cline{1-2} \cline{4-4} 
+    \multicolumn{1}{|l|}{Emotional Impact}                        & \multicolumn{1}{l|}{43.75} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{Total}          \\ \cline{1-2} \cline{4-4} 
+    \multicolumn{1}{|l|}{Internal Expectations}                   & \multicolumn{1}{l|}{37.50} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{382.60}         \\ \cline{1-2} \cline{4-4} 
+    \multicolumn{1}{|l|}{Self-Consciousness}                      & \multicolumn{1}{l|}{47.92} &                       &                                     \\ \cline{1-2} \cline{4-4} 
+    \multicolumn{1}{|l|}{External Expectations and Sharing}       & \multicolumn{1}{l|}{43.75} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{Mean}           \\ \cline{1-2} \cline{4-4} 
+    \multicolumn{1}{|l|}{Recall and Recognition}                  & \multicolumn{1}{l|}{43.75} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{42.51}          \\ \cline{1-2} \cline{4-4} 
+    \multicolumn{1}{|l|}{Enjoyment and Repeatability}             & \multicolumn{1}{l|}{43.75} &                       &                                     \\ \cline{1-2} \cline{4-4} 
+    \multicolumn{1}{|l|}{Subjective Sense of Comfort}             & \multicolumn{1}{l|}{43.75} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{Std  Deviation} \\ \cline{1-2} \cline{4-4} 
+    \multicolumn{1}{|l|}{Technological and Methodological Impact} & \multicolumn{1}{l|}{40.63} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{3.31}           \\ \cline{1-2} \cline{4-4} 
+    \multicolumn{1}{|l|}{Symbolic Feedback and Sense Making}      & \multicolumn{1}{l|}{37.81} &                       &                                     \\ \cline{1-2}
+                                                                  &                            &                       &                                     \\ \cline{1-2}
+    \multicolumn{1}{|l|}{Non-Cultural Group}                      & \multicolumn{1}{l|}{score} &                       &                                     \\ \cline{1-2} \cline{4-4} 
+    \multicolumn{1}{|l|}{Emotional Impact}                        & \multicolumn{1}{l|}{50.00} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{Total}          \\ \cline{1-2} \cline{4-4} 
+    \multicolumn{1}{|l|}{Internal Expectations}                   & \multicolumn{1}{l|}{28.13} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{342.59}         \\ \cline{1-2} \cline{4-4} 
+    \multicolumn{1}{|l|}{Self-Consciousness}                      & \multicolumn{1}{l|}{45.83} &                       &                                     \\ \cline{1-2} \cline{4-4} 
+    \multicolumn{1}{|l|}{External Expectations and Sharing}       & \multicolumn{1}{l|}{43.75} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{Mean}           \\ \cline{1-2} \cline{4-4} 
+    \multicolumn{1}{|l|}{Recall and Recognition}                  & \multicolumn{1}{l|}{24.31} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{38.07}          \\ \cline{1-2} \cline{4-4} 
+    \multicolumn{1}{|l|}{Enjoyment and Repeatability}             & \multicolumn{1}{l|}{46.88} &                       &                                     \\ \cline{1-2} \cline{4-4} 
+    \multicolumn{1}{|l|}{Subjective Sense of Comfort}             & \multicolumn{1}{l|}{47.92} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{Std  Deviation} \\ \cline{1-2} \cline{4-4} 
+    \multicolumn{1}{|l|}{Technological and Methodological Impact} & \multicolumn{1}{l|}{34.38} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{11.12}          \\ \cline{1-2} \cline{4-4} 
+    \multicolumn{1}{|l|}{Symbolic Feedback and Sense Making}      & \multicolumn{1}{l|}{21.41} &                       &                                     \\ \cline{1-2}
+    \end{tabular}
+        \caption{\label{tab:Table_Final}Immersiveness Factors and Scores between the Two Groups}
+    \end{table}
+    There was a tendency by the users to give consistent responses sticking mostly to full or light agreement. This is why, despite having different number of dimensions (questions), 4 of the parameters in the Cultural Group had the same score in a pattern. The Non-CulturalGroup scores lower than the Cultural overall, and it would appear that three of the factor are very much lower than the Cultural's. But it's not credible enough that this is a significant difference without data analyticals.\\
+    Performing a double ailed two-sample t-test, we can attempt to validate an hypothesis by bidding to prove an opposing one. By seeking to credit that the samples have similar characteristics, we could perhaps find suggesting evidence at a given level of significance that the games had different impacts on the players. However, at a significance level of 0.05, we already find no convincing enough evidence (t= 1.149818588, tc= 2.262157163) that the two samples differ significantly. And given that at, at p-value 0.05, there's at least 23\% (and typically close to 50\%) chance of incorrectly suggesting the alternate hypothesis, this proves to not be a valid vector by which difference between the two groups can be established. In summation, the immersiveness indicators were inconclusive.\\
+    
+\subsection{Loose Observations} \label{sec:results_surveys_disjointed}
+    Both cultural and non-cultural groups were requested to name the most memorable part of the game. Out of 4 exceptions, both parties named the same element. Those exceptions include 2 users speaking of their frustration with movement, and 2 speaking of the moment of victory. All remaining 13 users singled out the blue animated humanoid NPC due to the richness of its responsiveness and interaction. Also, as noted earlier, this NPC reacted by performing its own gestures, two of which were done in a similar fashion to the Cultural Group's (Waving and Pointing), which may have influenced the Non-Cultural Group's memory of the experience.\\
+    On the second part of the second trial's post-test, after the being questioned about the tasks, the volunteers were asked about substitutions to the gesture set, while also being reminded of what the actual gesture set was. Out of 19 (17 from the Non-Cultural Group) suggestions, only 1 did not involve a cultural gesture, and only an additional 2 didn't involve emblematic gestures. Non-Cultural Group participants were fixated on gestures that ended up belonging to the Cultural gesture set.\\

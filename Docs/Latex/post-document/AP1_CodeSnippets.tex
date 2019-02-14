@@ -1,0 +1,67 @@
+\chapter{Code Snippets} \label{ap1:CodeSnippets}
+
+\section{Cultural Definition of Gestures within Game Controller as part of the Cultural Layer's Initialization} \label{ap1:InitCulturalLayer}
+
+\begin{lstlisting}
+public static void InitCulturalLayer() {
+	//Common Gestures
+	culturalLayer.AddDefaultGesture("NOTHING", "OPEN_HAND");
+	culturalLayer.AddDefaultGesture("CANCEL", "WAVE");
+	culturalLayer.AddDefaultGesture("NO", "THUMBS_DOWN");
+	culturalLayer.AddDefaultGesture("YES", "THUMBS_UP");
+	culturalLayer.AddDefaultGesture("THUMBS_DOWN", "THUMBS_DOWN");
+	culturalLayer.AddDefaultGesture("THUMBS_UP", "THUMBS_UP");
+	culturalLayer.AddDefaultGesture("FRONT", "POINT_FRONT");
+	culturalLayer.AddDefaultGesture("BACK", "POINT_BACK");
+	culturalLayer.AddDefaultGesture("RIGHT", "POINT_RIGHT");
+	culturalLayer.AddDefaultGesture("LEFT", "POINT_LEFT");
+
+	//List of default gestures here.
+	culturalLayer.AddDefaultGesture("QUIET", "THUMBS_DOWN");
+	culturalLayer.AddDefaultGesture("COME_HERE", "WAVE");
+	culturalLayer.AddDefaultGesture("PHOTO_FRAME", "OK_RING");
+	culturalLayer.AddDefaultGesture("IMPATIENT", "STOP");
+	culturalLayer.AddDefaultGesture("PHONE", "LIFT_POINTER_FINGER");
+	culturalLayer.AddDefaultGesture("ATTENTION", "THUMBS_UP");
+	culturalLayer.AddDefaultGesture("POINT_AT", "POINT_FINGERGUN");
+	culturalLayer.AddDefaultGesture("GO_AWAY", "WAVE");
+	culturalLayer.AddDefaultGesture("CELEBRATE", "THUMBS_UP");
+
+	//List cultural gestures here
+	culturalLayer.AddCultureGesture("QUIET", "PT", "QUIET_NEW");
+	culturalLayer.AddCultureGesture("COME_HERE", "PT", "COME_HERE");
+	culturalLayer.AddCultureGesture("PHOTO_FRAME", "PT", "PHOTO_FRAME");
+	culturalLayer.AddCultureGesture("IMPATIENT", "PT", "IMPATIENT");
+	culturalLayer.AddCultureGesture("PHONE", "PT", "SHAKA_DOWN");
+	culturalLayer.AddCultureGesture("ATTENTION", "PT", "ATTENTION");
+	culturalLayer.AddCultureGesture("WAVE", "PT", "WAVE");
+	culturalLayer.AddCultureGesture("POINT_AT", "PT", "POINT_AT");
+	culturalLayer.AddCultureGesture("GO_AWAY", "PT", "SHOO");
+	culturalLayer.AddCultureGesture("CELEBRATE", "PT", "FIST_PUMP");
+}
+\end{lstlisting}
+
+\section{State Definitions within the Game Controller to be sent to the Cultural Layer by demand of the Character Controller} \label{ap1:StateDefinitions}
+
+\begin{lstlisting}
+public static State GoAwayState() {
+	State state = new State("Shoo Away State");
+	state.AddGesture("NOTHING");
+	state.AddGesture("GO_AWAY");
+	return state;
+}
+
+public static State VictoryState() {
+	State state = new State("Victory State");
+	state.AddGesture("NOTHING");
+	state.AddGesture("CELEBRATE");
+	return state;
+}
+
+public static State PhotoState() {
+	State state = new State("Photo State");
+	state.AddGesture("NOTHING");
+	state.AddGesture("PHOTO_FRAME");
+	return state;
+}
+\end{lstlisting}
