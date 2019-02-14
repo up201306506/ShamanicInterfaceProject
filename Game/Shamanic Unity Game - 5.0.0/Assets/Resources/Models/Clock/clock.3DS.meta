@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: b20762124bf7e3547ae1ba8f8c532408
+timeCreated: 1541987458
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Arrow-1
+    100002: Arrow-10
+    100004: Arrow-2
+    100006: Arrow-20
+    100008: Arrow-3
+    100010: Bottom
+    100012: Camera001
+    100014: Camera001.target
+    100016: Camera002
+    100018: Camera002.target
+    100020: Camera003
+    100022: Camera003.target
+    100024: Clock
+    100026: //RootNode
+    100028: Frame
+    100030: Glass
+    100032: Pimp
+    100034: Plane001
+    100036: Shim-1
+    100038: Shim-2
+    400000: Arrow-1
+    400002: Arrow-10
+    400004: Arrow-2
+    400006: Arrow-20
+    400008: Arrow-3
+    400010: Bottom
+    400012: Camera001
+    400014: Camera001.target
+    400016: Camera002
+    400018: Camera002.target
+    400020: Camera003
+    400022: Camera003.target
+    400024: Clock
+    400026: //RootNode
+    400028: Frame
+    400030: Glass
+    400032: Pimp
+    400034: Plane001
+    400036: Shim-1
+    400038: Shim-2
+    2300000: Arrow-10
+    2300002: Arrow-20
+    2300004: Arrow-3
+    2300006: Bottom
+    2300008: Frame
+    2300010: Glass
+    2300012: Pimp
+    2300014: Plane001
+    2300016: Shim-1
+    2300018: Shim-2
+    3300000: Arrow-10
+    3300002: Arrow-20
+    3300004: Arrow-3
+    3300006: Bottom
+    3300008: Frame
+    3300010: Glass
+    3300012: Pimp
+    3300014: Plane001
+    3300016: Shim-1
+    3300018: Shim-2
+    4300000: Plane001
+    4300002: Frame
+    4300004: Bottom
+    4300006: Glass
+    4300008: Shim-1
+    4300010: Arrow-10
+    4300012: Pimp
+    4300014: Shim-2
+    4300016: Arrow-20
+    4300018: Arrow-3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
